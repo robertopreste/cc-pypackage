@@ -6,8 +6,13 @@ cc-pypackage
      :target: https://pyup.io/repos/github/robertopreste/cc-pypackage/
      :alt: Updates
 
+.. image:: https://pyup.io/repos/github/robertopreste/cc-pypackage/python-3-shield.svg
+     :target: https://pyup.io/repos/github/robertopreste/cc-pypackage/
+     :alt: Python 3
+
 .. image:: https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master
     :target: https://travis-ci.com/robertopreste/cc-pypackage
+    :alt: Build status
 
 My custom Cookiecutter_ template for a Python package.
 
@@ -33,15 +38,15 @@ Build Status
 
 Linux:
 
-.. image:: https://img.shields.io/travis/robertopreste/cc-pypackage.svg
+.. image:: https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master
     :target: https://travis-ci.com/robertopreste/cc-pypackage
-    :alt: Linux build status on Travis CI
+    :alt: Build status
 
 Windows:
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/robertopreste/cc-pypackage?branch=master&svg=true
-    :target: https://ci.appveyor.com/project/robertopreste/cc-pypackage/branch/master
-    :alt: Windows build status on Appveyor
+.. image:: https://ci.appveyor.com/api/projects/status/0rao47b8wcw705do?svg=true
+    :target: https://ci.appveyor.com/project/robertopreste/cc-pypackage
+    :alt: Build status
 
 Quickstart
 ----------

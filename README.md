@@ -2,7 +2,9 @@
 
 [![Updates](https://pyup.io/repos/github/robertopreste/cc-pypackage/shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/)
 
-[![Build Status](https://travis-ci.org/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage)
+[![Python 3](https://pyup.io/repos/github/robertopreste/cc-pypackage/python-3-shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/)
+
+[![Build Status](https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage)
 
 
 My custom [Cookiecutter] template for a Python package.
@@ -26,11 +28,11 @@ My custom [Cookiecutter] template for a Python package.
 
 Linux:
 
-[![Linux build status on Travis CI](https://img.shields.io/travis/robertopreste/cc-pypackage.svg)](https://travis-ci.com/robertopreste/cc-pypackage)
+[![Build Status](https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage)
 
 Windows:
 
-[![Windows build status on Appveyor](https://ci.appveyor.com/api/projects/status/github/robertopreste/cc-pypackage?branch=master&svg=true)](https://ci.appveyor.com/project/robertopreste/cc-pypackage/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/0rao47b8wcw705do?svg=true)](https://ci.appveyor.com/project/robertopreste/cc-pypackage)
 
 
 ## Quickstart  
