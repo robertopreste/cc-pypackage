@@ -2,7 +2,7 @@
 
 [![Updates](https://pyup.io/repos/github/robertopreste/cc-pypackage/shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/)
 
-[![Build Status](https://travis-ci.org/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.org/robertopreste/cc-pypackage)
+[![Build Status](https://travis-ci.org/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage)
 
 
 My custom [Cookiecutter] template for a Python package.

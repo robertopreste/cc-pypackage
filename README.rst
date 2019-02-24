@@ -6,8 +6,8 @@ cc-pypackage
      :target: https://pyup.io/repos/github/robertopreste/cc-pypackage/
      :alt: Updates
 
-.. image:: https://travis-ci.org/robertopreste/cc-pypackage.svg?branch=master
-    :target: https://travis-ci.org/robertopreste/cc-pypackage
+.. image:: https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master
+    :target: https://travis-ci.com/robertopreste/cc-pypackage
 
 My custom Cookiecutter_ template for a Python package.
 
