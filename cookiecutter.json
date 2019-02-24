@@ -2,7 +2,7 @@
   "full_name": "Roberto Preste",
   "email": "robertopreste@gmail.com",
   "github_username": "robertopreste",
-  "project_name": "Python Boilerplate",
+  "project_name": "Python_Template",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Python package template.",
   "pypi_username": "{{ cookiecutter.github_username }}",

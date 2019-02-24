@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 # Created by Roberto Preste
 from contextlib import contextmanager
+import importlib
 import shlex
 import os
 import sys
@@ -11,11 +12,6 @@ import datetime
 from cookiecutter.utils import rmtree
 
 from click.testing import CliRunner
-
-if sys.version_info > (3, 0):
-    import importlib
-else:
-    import imp
 
 
 @contextmanager

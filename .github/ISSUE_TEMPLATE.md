@@ -1,4 +1,4 @@
-* Date you used Cookiecutter PyPackage:
+* Date you used cc-pypackage:
 * Cookiecutter version used, if any:
 * Python version, if any:
 * Operating System:
