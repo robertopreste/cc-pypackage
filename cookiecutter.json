@@ -4,7 +4,7 @@
   "github_username": "robertopreste",
   "project_name": "Python_Template",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "project_short_description": "Python package template.",
+  "project_short_description": "My custom Cookiecutter template for a Python package.",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
   "use_pytest": "y",

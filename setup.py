@@ -7,7 +7,7 @@ setup(
     name='cc-pypackage',
     packages=[],
     version='0.1.0',
-    description='Simple Cookiecutter template for a Python package',
+    description='My custom Cookiecutter template for a Python package',
     author='Roberto Preste',
     license='BSD',
     author_email='roberto.preste@gmail.com',
