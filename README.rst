@@ -79,7 +79,7 @@ For more details, see the `cc-pypackage tutorial`_.
 References
 ----------
 
-This Cookiecutter was adapted for my personal needs from the original `Cookiecutter-PyPackage`_ from audreyr_.
+This Cookiecutter was adapted for my personal needs from the original `Cookiecutter-PyPackage`_ by audreyr_.
 
 .. _`Cookiecutter-PyPackage`: https://github.com/audreyr/cookiecutter-pypackage
 .. _audreyr: https://github.com/audreyr
