@@ -13,9 +13,9 @@ My custom [Cookiecutter] template for a Python package.
 
 ## Features  
 
-* Testing setup with `unittest` and `python setup.py test` or `py.test`  
+* Testing setup with `unittest` and `python setup.py test` or `pytest` (used by default)  
 * [Travis-CI]: Ready for Travis Continuous Integration testing
-* [Tox] testing: Setup to easily test for Python 2.7, 3.4, 3.5, 3.6
+* [Tox] testing: Setup to easily test for Python 3.4, 3.5, 3.6
 * [Sphinx] docs: Documentation ready for generation with, for example, [ReadTheDocs]
 * [Bumpversion]: Pre-configured version bumping with a single command
 * Auto-release to [PyPI] when you push a new tag to master (optional)
