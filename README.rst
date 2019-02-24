@@ -34,7 +34,7 @@ Build Status
 Linux:
 
 .. image:: https://img.shields.io/travis/robertopreste/cc-pypackage.svg
-    :target: https://travis-ci.org/robertopreste/cc-pypackage
+    :target: https://travis-ci.com/robertopreste/cc-pypackage
     :alt: Linux build status on Travis CI
 
 Windows:
@@ -85,7 +85,7 @@ This Cookiecutter was adapted for my personal needs from the original `Cookiecut
 .. _audreyr: https://github.com/audreyr
 
 
-.. _Travis-CI: http://travis-ci.org/
+.. _Travis-CI: http://travis-ci.com/
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
 .. _ReadTheDocs: https://readthedocs.io/

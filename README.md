@@ -26,7 +26,7 @@ My custom [Cookiecutter] template for a Python package.
 
 Linux:
 
-[![Linux build status on Travis CI](https://img.shields.io/travis/robertopreste/cc-pypackage.svg)](https://travis-ci.org/robertopreste/cc-pypackage)
+[![Linux build status on Travis CI](https://img.shields.io/travis/robertopreste/cc-pypackage.svg)](https://travis-ci.com/robertopreste/cc-pypackage)
 
 Windows:
 
@@ -74,7 +74,7 @@ This Cookiecutter was adapted for my personal needs from the original [Cookiecut
 [audreyr]: https://github.com/audreyr
 
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
-[Travis-CI]: http://travis-ci.org/
+[Travis-CI]: http://travis-ci.com/
 [Tox]: http://testrun.org/tox/
 [Sphinx]: http://sphinx-doc.org/
 [ReadTheDocs]: https://readthedocs.io/
