@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Created by Roberto Preste
-
-"""Console script for {{cookiecutter.project_slug}}."""
 import sys
 import click
 
