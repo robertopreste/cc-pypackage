@@ -1,10 +1,6 @@
 # cc-pypackage  
 
-[![Updates](https://pyup.io/repos/github/robertopreste/cc-pypackage/shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/)
-
-[![Python 3](https://pyup.io/repos/github/robertopreste/cc-pypackage/python-3-shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/)
-
-[![Build Status](https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage)
+[![Updates](https://pyup.io/repos/github/robertopreste/cc-pypackage/shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/) [![Python 3](https://pyup.io/repos/github/robertopreste/cc-pypackage/python-3-shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/) [![Build Status](https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage)
 
 
 My custom [Cookiecutter] template for a Python package.
@@ -38,13 +34,17 @@ Windows:
 ## Quickstart  
 
 Install the latest Cookiecutter if you haven't installed it yet (this requires
-Cookiecutter 1.4.0 or higher)::
+Cookiecutter 1.4.0 or higher):  
 
+```bash 
     pip install -U cookiecutter
+```
 
-Generate a Python package project::
+Generate a Python package project:  
 
+```bash 
     cookiecutter https://github.com/robertopreste/cc-pypackage.git
+```
 
 Then:
 
@@ -68,7 +68,7 @@ For more details, see the [cookiecutter-pypackage tutorial].
 
 [cookiecutter-pypackage tutorial]: https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 
-## References  
+## Credits  
 
 This Cookiecutter was adapted for my personal needs from the original [Cookiecutter-PyPackage] by [audreyr].  
 

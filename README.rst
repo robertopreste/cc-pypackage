@@ -81,8 +81,8 @@ For more details, see the `cc-pypackage tutorial`_.
 
 .. _`cc-pypackage tutorial`: https://cc-pypackage.readthedocs.io/en/latest/tutorial.html
 
-References
-----------
+Credits
+-------
 
 This Cookiecutter was adapted for my personal needs from the original `Cookiecutter-PyPackage`_ by audreyr_.
 
