@@ -2,6 +2,14 @@
 cc-pypackage
 ============
 
+.. image:: https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master
+    :target: https://travis-ci.com/robertopreste/cc-pypackage
+    :alt: Build status
+
+.. image:: https://ci.appveyor.com/api/projects/status/0rao47b8wcw705do?svg=true
+    :target: https://ci.appveyor.com/project/robertopreste/cc-pypackage
+    :alt: Build status
+
 .. image:: https://pyup.io/repos/github/robertopreste/cc-pypackage/shield.svg
      :target: https://pyup.io/repos/github/robertopreste/cc-pypackage/
      :alt: Updates
@@ -9,10 +17,6 @@ cc-pypackage
 .. image:: https://pyup.io/repos/github/robertopreste/cc-pypackage/python-3-shield.svg
      :target: https://pyup.io/repos/github/robertopreste/cc-pypackage/
      :alt: Python 3
-
-.. image:: https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master
-    :target: https://travis-ci.com/robertopreste/cc-pypackage
-    :alt: Build status
 
 My custom Cookiecutter_ template for a Python package.
 
@@ -32,21 +36,6 @@ Features
 * Command line interface using Click (optional)
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-
-Build Status
--------------
-
-Linux:
-
-.. image:: https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master
-    :target: https://travis-ci.com/robertopreste/cc-pypackage
-    :alt: Build status
-
-Windows:
-
-.. image:: https://ci.appveyor.com/api/projects/status/0rao47b8wcw705do?svg=true
-    :target: https://ci.appveyor.com/project/robertopreste/cc-pypackage
-    :alt: Build status
 
 Quickstart
 ----------

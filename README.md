@@ -1,6 +1,6 @@
 # cc-pypackage  
 
-[![Updates](https://pyup.io/repos/github/robertopreste/cc-pypackage/shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/) [![Python 3](https://pyup.io/repos/github/robertopreste/cc-pypackage/python-3-shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/) [![Build Status](https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage)
+[![Build Status](https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage) [![Build status](https://ci.appveyor.com/api/projects/status/0rao47b8wcw705do?svg=true)](https://ci.appveyor.com/project/robertopreste/cc-pypackage) [![Updates](https://pyup.io/repos/github/robertopreste/cc-pypackage/shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/) [![Python 3](https://pyup.io/repos/github/robertopreste/cc-pypackage/python-3-shield.svg)](https://pyup.io/repos/github/robertopreste/cc-pypackage/) 
 
 
 My custom [Cookiecutter] template for a Python package.
@@ -18,17 +18,6 @@ My custom [Cookiecutter] template for a Python package.
 * [Bumpversion]: Pre-configured version bumping with a single command
 * Auto-release to [PyPI] when you push a new tag to master (optional)
 * Command line interface using Click (optional)
-
-
-## Build Status  
-
-Linux:
-
-[![Build Status](https://travis-ci.com/robertopreste/cc-pypackage.svg?branch=master)](https://travis-ci.com/robertopreste/cc-pypackage)
-
-Windows:
-
-[![Build status](https://ci.appveyor.com/api/projects/status/0rao47b8wcw705do?svg=true)](https://ci.appveyor.com/project/robertopreste/cc-pypackage)
 
 
 ## Quickstart  
