@@ -23,7 +23,7 @@ TODO
 
 ## Credits  
 
-This package was create with [Cookiecutter] and the [robertopreste/cc-pypackage] project template.  
+This package was create with [Cookiecutter] and the [cc-pypackage] project template.  
 
 [Cookiecutter]: https://github.com/audreyr/cookiecutter 
-[robertopreste/cc-pypackage]: https://github.com/robertopreste/cc-pypackage 
+[cc-pypackage]: https://github.com/robertopreste/cc-pypackage 

@@ -37,7 +37,7 @@ Features
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `robertopreste/cc-pypackage`_ project template.
+This package was created with Cookiecutter_ and the `cc-pypackage`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`robertopreste/cc-pypackage`: https://github.com/robertopreste/cc-pypackage
+.. _`cc-pypackage`: https://github.com/robertopreste/cc-pypackage
