@@ -25,7 +25,7 @@ def response():
     See more at: http://doc.pytest.org/en/latest/fixture.html
     """
     # import requests
-    # return requests.get('https://github.com/audreyr/cookiecutter-pypackage')
+    # return requests.get('https://github.com/robertopreste/cc-pypackage')
 
 
 def test_content(response):
@@ -35,12 +35,16 @@ def test_content(response):
 {%- if cookiecutter.command_line_interface|lower == 'click' %}
 
 
-def test_command_line_interface():
+def test_cli():
     """Test the CLI."""
     runner = CliRunner()
     result = runner.invoke(cli.main)
     assert result.exit_code == 0
     assert '{{ cookiecutter.project_slug }}.cli.main' in result.output
+
+def test_cli_help():
+    """Test the CLI help."""
+    runner = CliRunner()
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output
@@ -61,12 +65,16 @@ class Test{{ cookiecutter.project_slug|title }}(unittest.TestCase):
         """Test something."""
 {%- if cookiecutter.command_line_interface|lower == 'click' %}
 
-    def test_command_line_interface(self):
+    def test_cli(self):
         """Test the CLI."""
         runner = CliRunner()
         result = runner.invoke(cli.main)
         assert result.exit_code == 0
         assert '{{ cookiecutter.project_slug }}.cli.main' in result.output
+
+    def test_cli_help(self):
+        """Test the CLI help."""
+        runner = CliRunner()
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output
