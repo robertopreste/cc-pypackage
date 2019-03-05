@@ -1,12 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Created by Roberto Preste
+
 from distutils.core import setup
 setup(
     name='cc-pypackage',
     packages=[],
     version='0.1.1',
     description='My custom Cookiecutter template for a Python package',
+    long_description_content_type='text/x-rst',
     author='Roberto Preste',
     license='BSD',
     author_email='roberto.preste@gmail.com',
