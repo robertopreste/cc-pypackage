@@ -5,7 +5,7 @@ from distutils.core import setup
 setup(
     name='cc-pypackage',
     packages=[],
-    version='0.1.0',
+    version='0.1.1',
     description='My custom Cookiecutter template for a Python package',
     author='Roberto Preste',
     license='BSD',
