@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Created by Roberto Preste
-
 from distutils.core import setup
-setup(
+
+setup(  # pragma: no cover
     name='cc-pypackage',
     packages=[],
     version='0.1.2',
