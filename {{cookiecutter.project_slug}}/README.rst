@@ -7,8 +7,18 @@
 .. image:: https://img.shields.io/pypi/v/{{ cookiecutter.project_slug }}.svg
         :target: https://pypi.python.org/pypi/{{ cookiecutter.project_slug }}
 
-.. image:: https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg
+.. image:: https://www.repostatus.org/badges/latest/wip.svg
+    :alt: Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.
+    :target: https://www.repostatus.org/#wip
+
+.. image:: https://travis-ci.com/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?branch=master
         :target: https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+
+.. image:: https://circleci.com/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?style=svg
+        :target: https://circleci.com/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+
+.. image:: https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
 
 .. image:: https://readthedocs.org/projects/{{ cookiecutter.project_slug | replace("_", "-") }}/badge/?version=latest
         :target: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io/en/latest/?badge=latest
@@ -19,14 +29,24 @@
 .. image:: https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/shield.svg
      :target: https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/
      :alt: Updates
+
+.. image:: https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/python-3-shield.svg
+     :target: https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/
+     :alt: Python 3
 {% endif %}
 
+{% if is_open_source %}
+.. image:: https://pepy.tech/badge/{{ cookiecutter.project_slug }}
+    :target: https://pepy.tech/project/{{ cookiecutter.project_slug }}
+    :alt: Downloads
+{% endif %}
 
 {{ cookiecutter.project_short_description }}
 
 {% if is_open_source %}
 * Free software: {{ cookiecutter.open_source_license }}
-* Documentation: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io.
+* Documentation: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io
+* GitHub repo: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
 {% endif %}
 
 Features
