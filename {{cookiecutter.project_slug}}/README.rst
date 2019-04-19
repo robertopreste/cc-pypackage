@@ -11,7 +11,7 @@
     :alt: Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.
     :target: https://www.repostatus.org/#wip
 
-.. image:: https://travis-ci.com/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?branch=master
+.. image:: https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?branch=master
         :target: https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
 
 .. image:: https://circleci.com/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?style=svg
