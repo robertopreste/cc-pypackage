@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Created by Roberto Preste
+import setuptools
 from distutils.core import setup
 
 setup(  # pragma: no cover
@@ -8,7 +9,6 @@ setup(  # pragma: no cover
     packages=[],
     version='0.2.0',
     description="My custom Cookiecutter template for a Python package",
-    long_description_content_type="text/x-rst",
     author="Roberto Preste",
     license="BSD",
     author_email="roberto.preste@gmail.com",
