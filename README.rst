@@ -18,6 +18,9 @@ cc-pypackage
      :target: https://pyup.io/repos/github/robertopreste/cc-pypackage/
      :alt: Python 3
 
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+   :target: https://saythanks.io/to/robertopreste
+
 My custom Cookiecutter_ template for a Python package.
 
 * GitHub repo: https://github.com/robertopreste/cc-pypackage/

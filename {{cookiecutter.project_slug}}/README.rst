@@ -39,6 +39,9 @@
 .. image:: https://pepy.tech/badge/{{ cookiecutter.project_slug }}
     :target: https://pepy.tech/project/{{ cookiecutter.project_slug }}
     :alt: Downloads
+
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+   :target: https://saythanks.io/to/robertopreste
 {% endif %}
 
 {{ cookiecutter.project_short_description }}
