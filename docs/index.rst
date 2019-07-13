@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to cc-pypackage's documentation!
-==================================================
+========================================
 
 Getting Started
 ---------------

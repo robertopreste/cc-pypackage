@@ -53,14 +53,26 @@
 {% endif %}
 
 Features
---------
+========
 
 * TODO
 
+Usage
+=====
+
+Please refer to the Usage_ section of the documentation for further information.
+
+Installation
+============
+
+Please refer to the Installation_ section of the documentation for further information.
+
 Credits
--------
+=======
 
 This package was created with Cookiecutter_ and the `cc-pypackage`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`cc-pypackage`: https://github.com/robertopreste/cc-pypackage
+.. _Usage: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io/en/latest/usage.html
+.. _Installation: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io/en/latest/installation.html

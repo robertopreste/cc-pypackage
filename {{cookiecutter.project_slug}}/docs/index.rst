@@ -1,5 +1,7 @@
-Welcome to {{ cookiecutter.project_name }}'s documentation!
-======================================
+.. include:: ../README.rst
+
+Table of contents
+=================
 
 .. toctree::
    :maxdepth: 2
@@ -9,7 +11,6 @@ Welcome to {{ cookiecutter.project_name }}'s documentation!
    installation
    usage
    api
-   modules
    contributing
    {% if cookiecutter.create_author_file == 'y' -%}authors
    {% endif -%}history
