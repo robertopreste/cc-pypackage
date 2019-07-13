@@ -55,13 +55,16 @@ lint: ## check style with flake8
 
 test: ## run tests quickly with the default Python
 {%- if cookiecutter.use_pytest == 'y' %}
-	py.test
+	pytest
 {%- else %}
 	python setup.py test
 {%- endif %}
 
 test-all: ## run tests on every Python version with tox
 	tox
+
+test-suite: ## create/update reference test files
+	python tests/create_suite.py
 
 coverage: ## check code coverage quickly with the default Python
 {%- if cookiecutter.use_pytest == 'y' %}

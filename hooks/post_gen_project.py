@@ -18,6 +18,8 @@ if __name__ == '__main__':
 
     if '{{ cookiecutter.use_pytest }}' == 'y':
         remove_file('tests/__init__.py')
+    else:
+        remove_file("tests/conftest.py")
 
     if 'no' in '{{ cookiecutter.command_line_interface|lower }}':
         cli_file = os.path.join('{{ cookiecutter.project_slug }}', 'cli.py')
