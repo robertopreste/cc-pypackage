@@ -4,11 +4,16 @@
 import setuptools
 from distutils.core import setup
 
+with open("README.rst") as readme_file:
+    readme = readme_file.read()
+
 setup(  # pragma: no cover
     name="cc-pypackage",
     packages=[],
     version='0.2.2',
-    description="My custom Cookiecutter template for a Python package",
+    description="My custom Cookiecutter template for a Python package.",
+    long_description=readme,
+    long_description_content_type="text/x-rst",
     author="Roberto Preste",
     license="BSD",
     author_email="roberto.preste@gmail.com",
