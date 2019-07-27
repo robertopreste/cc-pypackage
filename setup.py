@@ -10,7 +10,7 @@ with open("README.rst") as readme_file:
 setup(  # pragma: no cover
     name="cc-pypackage",
     packages=[],
-    version='0.2.2',
+    version='0.2.3',
     description="My custom Cookiecutter template for a Python package.",
     long_description=readme,
     long_description_content_type="text/x-rst",
