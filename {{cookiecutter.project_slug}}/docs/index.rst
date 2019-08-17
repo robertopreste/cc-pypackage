@@ -1,5 +1,7 @@
 .. include:: ../README.rst
 
+____
+
 Table of contents
 =================
 
