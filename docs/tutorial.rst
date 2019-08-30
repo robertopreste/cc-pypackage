@@ -64,7 +64,7 @@ Step 3: Create a GitHub Repo
 
 Go to your GitHub account and create a new repo named ``mypackage``, where ``mypackage`` matches the ``[project_slug]`` from your answers to running cookiecutter. This is so that Travis CI and pyup.io can find it when we get to Step 5.
 
-``If your virtualenv folder is within your project folder, be sure to add the virtualenv folder name to your .gitignore file.``
+If your virtualenv folder is within your project folder, be sure to add the virtualenv folder name to your .gitignore file.
 
 You will find one folder named after the ``[project_slug]``. Move into this folder, and then setup git to use your GitHub repo and upload the code:
 
@@ -100,7 +100,7 @@ Your virtualenv should still be activated. If it isn't, activate it now. Install
 Step 5: Set Up Travis CI
 ------------------------
 
-`Travis CI org`_ [*]_ is a continuous integration tool used to prevent integration problems. Every commit to the master branch will trigger automated builds of the application.
+`Travis CI`_ is a continuous integration tool used to prevent integration problems. Every commit to the master branch will trigger automated builds of the application.
 
 Login using your Github credentials. It may take a few minutes for Travis CI to load up a list of all your GitHub repos. They will be listed with boxes to the left of the repo name, where the boxes have an ``X`` in them, meaning it is not connected to Travis CI.
 
@@ -119,10 +119,7 @@ This will:
 
 See :ref:`travis-pypi-setup` for more information.
 
-.. [*] For private projects go to `Travis CI com`_
-
-.. _`Travis CI org`: https://travis-ci.org/
-.. _`Travis CI com`: https://travis-ci.com/
+.. _`Travis CI`: https://travis-ci.com/
 
 
 Step 6: Set Up ReadTheDocs
