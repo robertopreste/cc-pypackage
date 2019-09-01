@@ -9,8 +9,6 @@ Sphinx==2.1.2
 sphinx-click==2.2.0
 sphinxcontrib-napoleon==0.7
 twine==1.13.0
-{% if cookiecutter.command_line_interface|lower == 'click' -%}
-click==7.0{% endif %}
 {% if cookiecutter.use_pytest == 'y' -%}
 pytest==5.1.1
 pytest-runner==5.1
