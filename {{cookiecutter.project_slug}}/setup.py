@@ -9,11 +9,17 @@ with open("README.rst") as readme_file:
 with open("HISTORY.rst") as history_file:
     history = history_file.read()
 
-requirements = [{%- if cookiecutter.command_line_interface|lower == "click" %}"Click>=7.0",{%- endif %} ]
+# requirements = [{%- if cookiecutter.command_line_interface|lower == "click" %}"Click>=7.0",{%- endif %} ]
 
-setup_requirements = [{%- if cookiecutter.use_pytest == "y" %}"pytest-runner",{%- endif %} ]
+# setup_requirements = [{%- if cookiecutter.use_pytest == "y" %}"pytest-runner",{%- endif %} ]
 
-test_requirements = [{%- if cookiecutter.use_pytest == "y" %}"pytest",{%- endif %} ]
+# test_requirements = [{%- if cookiecutter.use_pytest == "y" %}"pytest",{%- endif %} ]
+
+with open("requirements.txt") as f: 
+    requirements = f.read().splitlines()
+
+with open("requirements_test.txt") as f: 
+    test_requirements = f.read().splitlines()
 
 {%- set license_classifiers = {
     "MIT license": "License :: OSI Approved :: MIT License",
@@ -55,7 +61,7 @@ setup(  # pragma: no cover
     keywords="{{ cookiecutter.project_slug }}",
     name="{{ cookiecutter.project_slug }}",
     packages=find_packages(include=["{{ cookiecutter.project_slug }}"]),
-    setup_requires=setup_requirements,
+    # setup_requires=setup_requirements,
     test_suite="tests",
     tests_require=test_requirements,
     url="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
