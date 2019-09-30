@@ -16,7 +16,7 @@ with open("requirements_test.txt") as f:
 setup(  # pragma: no cover
     name="cc-pypackage",
     packages=[],
-    version='0.2.6',
+    version='0.2.7',
     description="My custom Cookiecutter template for a Python package.",
     install_requires=requirements, 
     tests_require=test_requirements, 
