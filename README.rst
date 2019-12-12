@@ -6,10 +6,6 @@ cc-pypackage
     :target: https://travis-ci.com/robertopreste/cc-pypackage
     :alt: Build status
 
-.. image:: https://ci.appveyor.com/api/projects/status/0rao47b8wcw705do?svg=true
-    :target: https://ci.appveyor.com/project/robertopreste/cc-pypackage
-    :alt: Build status
-
 .. image:: https://pyup.io/repos/github/robertopreste/cc-pypackage/shield.svg
      :target: https://pyup.io/repos/github/robertopreste/cc-pypackage/
      :alt: Updates
