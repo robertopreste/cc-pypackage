@@ -132,7 +132,7 @@ def test_bake_without_travis_pypi_setup(cookies):
                           ) as result:
         result_travis_config = yaml.load(result.project.join(".travis.yml").open())
         assert "deploy" not in result_travis_config
-        assert "python" == result_travis_config["language"]
+        assert len(result_travis_config["matrix"]["include"]) == 4
         found_toplevel_files = [f.basename for f in result.project.listdir()]
 
 
@@ -199,14 +199,13 @@ def test_using_pytest(cookies):
         run_inside_dir("python setup.py test", str(result.project)) == 0
 
 
-# drop this since pytest is the default
-# def test_not_using_pytest(cookies):
-#     with bake_in_temp_dir(cookies) as result:
-#         assert result.project.isdir()
-#         test_file_path = result.project.join('tests/test_python_template.py')
-#         lines = test_file_path.readlines()
-#         assert "import unittest" in ''.join(lines)
-#         assert "import pytest" not in ''.join(lines)
+def test_not_using_pytest(cookies):
+    with bake_in_temp_dir(cookies, extra_context={"use_pytest": "n"}) as result:
+        assert result.project.isdir()
+        test_file_path = result.project.join('tests/test_python_template.py')
+        lines = test_file_path.readlines()
+        assert "import unittest" in ''.join(lines)
+        assert "import pytest" not in ''.join(lines)
 
 
 # def test_project_with_hyphen_in_module_name(cookies):
