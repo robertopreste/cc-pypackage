@@ -69,14 +69,16 @@ class Test{{ cookiecutter.project_slug|title }}(unittest.TestCase):
         """Test the CLI."""
         runner = CliRunner()
         result = runner.invoke(cli.main)
-        assert result.exit_code == 0
-        assert "{{ cookiecutter.project_slug }}.cli.main" in result.output
+        self.assertEqual(0, result.exit_code)
+        self.assertIn("{{ cookiecutter.project_slug }}.cli.main",
+                      result.output)
 
     def test_cli_help(self):
         """Test the CLI help."""
         runner = CliRunner()
         result = runner.invoke(cli.main, ["--help"])
-        assert result.exit_code == 0
-        assert "--help  Show this message and exit." in result.output
+        self.assertEqual(0, result.exit_code)
+        self.assertIn("--help  Show this message and exit.",
+                      result.output)
 {%- endif %}
 {%- endif %}
