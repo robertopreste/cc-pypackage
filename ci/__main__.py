@@ -38,10 +38,24 @@ def twine_check():
 
 
 @cli.command(name="upload")
-def twine_upload():
-    """ Upload the package to PyPI using Twine. """
+@click.option("-u", "--username", default=None, help="PyPI username.")
+@click.option("-p", "--password", default=None, help="PyPI password.")
+def twine_upload(username, password):
+    """ Upload the package to PyPI using Twine.
+
+    Args:
+        username: PyPI username (if not provided, twine will ask for it)
+        password: PyPI password (if not provided, twine will ask for it)
+    """
+    cmd = ["twine", "upload"]
+    if username:
+        cmd.extend(["-u", username])
+        if password:
+            cmd.extend(["-p", password])
+    cmd.append("dist/*")
+
     click.echo("Uploading package...")
-    subprocess.check_call(["twine", "upload", "dist/*"])
+    subprocess.check_call(cmd)
     click.echo("Done.")
 
 
