@@ -25,8 +25,8 @@ def create_suite():
 @cli.command(name="build")
 def build():
     """ Build the package to be uploaded to PyPI. """
-    dist_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                            "dist")
+    dist_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "dist")
+
     if os.path.isdir(dist_dir):
         click.echo("Removing dist directory... ", nl=False)
         shutil.rmtree(dist_dir)
