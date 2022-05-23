@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Created by Roberto Preste
+# Created by {{ cookiecutter.full_name }}
 #
 # {{ cookiecutter.project_slug }} documentation build configuration file, created by
 # sphinx-quickstart on Fri Jun  9 13:47:02 2017.

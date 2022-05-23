@@ -41,7 +41,7 @@
     :alt: Downloads
 
 .. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
-   :target: https://saythanks.io/to/robertopreste
+   :target: https://saythanks.io/to/{{ cookiecutter.github_username }}
 {% endif %}
 
 {{ cookiecutter.project_short_description }}

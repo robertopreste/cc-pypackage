@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Created by Roberto Preste
+# Created by {{ cookiecutter.full_name }}
 from setuptools import setup, find_packages
 
 with open("README.rst") as readme_file:
