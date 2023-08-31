@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
-# Created by {{ cookiecutter.full_name }}
 {% if cookiecutter.use_pytest == "y" -%}
 import pytest
 {% else %}
@@ -41,6 +38,7 @@ def test_cli():
     result = runner.invoke(cli.main)
     assert result.exit_code == 0
     assert "{{ cookiecutter.project_slug }}.cli.main" in result.output
+
 
 def test_cli_help():
     """Test the CLI help."""

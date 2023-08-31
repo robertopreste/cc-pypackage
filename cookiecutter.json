@@ -1,6 +1,6 @@
 {
   "full_name": "Roberto Preste",
-  "email": "robertopreste@gmail.com",
+  "email": "roberto.preste@gmail.com",
   "github_username": "robertopreste",
   "project_name": "Python_Template",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",

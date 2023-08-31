@@ -1,25 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
-# Created by {{ cookiecutter.full_name }}
-from setuptools import setup, find_packages
+from setuptools import setup
 
-with open("README.rst") as readme_file:
+with open("README.md") as readme_file:
     readme = readme_file.read()
 
-with open("HISTORY.rst") as history_file:
-    history = history_file.read()
-
-requirements = [{%- if cookiecutter.command_line_interface|lower == "click" %}"Click>=7.0",{%- endif %} ]
-
-setup_requirements = [{%- if cookiecutter.use_pytest == "y" %}"pytest-runner",{%- endif %} ]
-
-test_requirements = [{%- if cookiecutter.use_pytest == "y" %}"pytest",{%- endif %} ]
-
-# with open("requirements.txt") as f:
-#     requirements = f.read().splitlines()
-
-# with open("requirements_test.txt") as f:
-#     test_requirements = f.read().splitlines()
+with open("requirements.txt") as f:
+    requirements = f.read().splitlines()
 
 {%- set license_classifiers = {
     "MIT license": "License :: OSI Approved :: MIT License",
@@ -42,6 +27,8 @@ setup(  # pragma: no cover
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
     ],
     description="{{ cookiecutter.project_short_description }}",
     {%- if "no" not in cookiecutter.command_line_interface|lower %}
@@ -55,15 +42,15 @@ setup(  # pragma: no cover
 {%- if cookiecutter.open_source_license in license_classifiers %}
     license="{{ cookiecutter.open_source_license }}",
 {%- endif %}
-    long_description=readme + "\n\n" + history,
-    long_description_content_type="text/x-rst",
+    long_description=readme,
+    long_description_content_type="text/markdown",
     include_package_data=True,
     keywords="{{ cookiecutter.project_slug }}",
     name="{{ cookiecutter.project_slug }}",
-    packages=find_packages(include=["{{ cookiecutter.project_slug }}"]),
-    setup_requires=setup_requirements,
+    packages=["{{ cookiecutter.project_slug }}"],
+    setup_requires=requirements,
     test_suite="tests",
-    tests_require=test_requirements,
+    tests_require=requirements,
     url="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
     version='{{ cookiecutter.version }}',
     zip_safe=False,

@@ -1,7 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
-# Created by {{ cookiecutter.full_name }}
 import sys
+
 import click
 
 
@@ -15,4 +13,4 @@ def main(args=None):
 
 
 if __name__ == "__main__":
-    sys.exit(main())  # pragma: no cover
+    sys.exit(main())
